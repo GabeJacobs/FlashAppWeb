@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portuguese Learning App - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #ffffff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            font-weight: 300;
+        }
+
+        .accent {
+            background: linear-gradient(135deg, #4A90E2 0%, #50C9C3 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .card {
+            background: #fafafa;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border: 1px solid #f0f0f0;
+        }
+
+        .card h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #4A90E2;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .contact-info {
+            background: linear-gradient(135deg, #4A90E2 0%, #50C9C3 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .contact-info h2 {
+            color: white;
+            border: none;
+            margin-bottom: 15px;
+        }
+
+        .contact-info p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .email-link {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.3s ease;
+        }
+
+        .email-link:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 2px solid #f0f0f0;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            padding: 8px 0;
+            color: #555;
+        }
+
+        ul li:before {
+            content: "→";
+            color: #4A90E2;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .container {
+                padding: 40px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Portuguese Learning App</h1>
+            <p class="subtitle">Learn Brazilian Portuguese with <span class="accent">adaptive flashcards</span></p>
+        </header>
+
+        <section>
+            <h2>About the App</h2>
+            <div class="card">
+                <p>
+                    Our app helps English speakers learn Brazilian Portuguese through adaptive flashcards 
+                    and spaced repetition. Starting with the easiest phrases and progressively introducing 
+                    more complex vocabulary, the app adapts to your skill level to ensure effective learning.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="card">
+                <h3>How does the difficulty system work?</h3>
+                <p>
+                    The app uses four difficulty ratings: Easy, Good, Hard, and Very Hard. Based on your 
+                    performance, the app automatically adjusts which cards you see and when you review them.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>How do I track my progress?</h3>
+                <p>
+                    Visit the Insights tab to see your total words learned, daily streaks, comprehension 
+                    percentage, and mastery progress across different difficulty levels (A1, A2, B1, B2, C1, C2).
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Can I use the app offline?</h3>
+                <p>
+                    Yes! Flashcards and your progress are cached locally. You can review cards offline, 
+                    and your progress will sync automatically when you're back online.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>How does the audio feature work?</h3>
+                <p>
+                    Each card includes high-quality Brazilian Portuguese audio. Tap the speaker icon to 
+                    hear native pronunciation. Audio is cached to ensure fast playback.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>What authentication methods are supported?</h3>
+                <p>
+                    You can sign in with Email/Password, Sign in with Apple, or Google Sign-In. Your 
+                    progress syncs automatically across all your devices.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>How do I reset my password?</h3>
+                <p>
+                    On the login screen, tap "Forgot Password?" and enter your email. You'll receive 
+                    a password reset link to create a new password.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Troubleshooting</h2>
+
+            <div class="card">
+                <h3>Audio not playing</h3>
+                <ul>
+                    <li>Check that your device volume is turned up</li>
+                    <li>Ensure silent mode is off</li>
+                    <li>Try force-closing and reopening the app</li>
+                    <li>Check your internet connection for first-time audio downloads</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Progress not syncing</h3>
+                <ul>
+                    <li>Ensure you're signed in to your account</li>
+                    <li>Check your internet connection</li>
+                    <li>Try logging out and logging back in</li>
+                    <li>Make sure you're using the same account on all devices</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>App crashing or freezing</h3>
+                <ul>
+                    <li>Make sure you have the latest version of the app</li>
+                    <li>Try restarting your device</li>
+                    <li>Ensure you have enough storage space</li>
+                    <li>Contact support if the issue persists</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="contact-info">
+                <h2>Need More Help?</h2>
+                <p>We're here to help! Send us an email and we'll get back to you as soon as possible.</p>
+                <a href="mailto:support@yourdomain.com" class="email-link">support@yourdomain.com</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Portuguese Learning App. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
